@@ -1,1 +1,12 @@
 @import url('https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css');
+
+.imagem-destaque {
+    width: 100%;
+    max-width: 1400px;
+    height: auto;
+    display: block;
+    margin: 1px auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border: 2px solid #2e7d32;
+}
