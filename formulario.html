@@ -16,6 +16,19 @@
             <a href="resultados.html">Resultados</a>
         </nav>
     </header>
+
+    <form action="/enviar-dados" method="POST">
+  <label for="nome">Nome:</label>
+  <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+
+  <label for="email">E-mail:</label>
+  <input type="email" id="email" name="email" placeholder="seu-email@exemplo.com" required>
+
+  <label for="ODS escolhida">ODS escolhida:</label>
+  <textarea id="mensagem" name="ODS escolhida" rows="1" placeholder="Escreva sua mensagem..." required></textarea>
+
+  <button type="submit">Enviar</button>
+</form>
     
 </body>
 </html>
