@@ -72,3 +72,16 @@
 .accordion-item-custom.active .accordion-header-custom {
     color: #016233;
 }
+
+.imagem-esg {
+    width: 200%;
+    max-width: 1100px;
+    height: auto;
+    border-radius: 15px;
+}
+.img-fluid{
+    width: 200%;
+    max-width: 1100px;
+    height: auto;
+    border-radius: 15px;
+}
