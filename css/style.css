@@ -11,77 +11,18 @@
     border: 2px solid #2e7d32;
 }
 
-.accordion-custom {
+
+.secao-informativa {
     border-top: 1px solid #dee2e6;
 }
 
-.accordion-item-custom {
-    border-bottom: 1px solid #dee2e6;
+.bloco-info h3 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.75rem;
+    color: #198754; /* Mantém o verde padrão */
 }
 
-.accordion-header-custom {
-    width: 100%;
-    background: none;
-    border: none;
-    padding: 1.25rem 0;
-    text-align: left;
-    font-size: 1.1rem;
-    font-weight: 600;
-    color: #016233;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    cursor: pointer;
-    transition: color 0.2s ease;
-}
-
-.accordion-header-custom:hover {
-    color: #198754;
-}
-
-.accordion-icon-custom {
-    width: 12px;
-    height: 12px;
-    border-right: 2px solid #198754;
-    border-bottom: 2px solid #198754;
-    transform: rotate(45deg);
-    transition: transform 0.3s ease;
-    margin-right: 8px;
-}
-
-.accordion-content-custom {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease-out;
-}
-
-.accordion-content-custom p {
-    padding-bottom: 1.25rem;
-    margin: 0;
-    color: #6c757d;
-    line-height: 1.6;
-}
-
-
-.accordion-item-custom.active .accordion-icon-custom {
-    transform: rotate(-135deg);
-    border-right: 2px solid #ff9800; 
-    border-bottom: 2px solid #ff9800;
-}
-
-.accordion-item-custom.active .accordion-header-custom {
-    color: #016233;
-}
-
-.imagem-esg {
-    width: 200%;
-    max-width: 1100px;
-    height: auto;
-    border-radius: 15px;
-}
-.img-fluid{
-    width: 200%;
-    max-width: 1100px;
-    height: auto;
-    border-radius: 15px;
+.bloco-info p {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
 }
