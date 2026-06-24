@@ -26,3 +26,10 @@
     margin-bottom: 0.5rem;
     font-size: 1rem;
 }
+
+.imagem-esg {
+    width: 50%;
+    margin: auto;
+    height: auto;
+    border-radius: 12px;
+}
