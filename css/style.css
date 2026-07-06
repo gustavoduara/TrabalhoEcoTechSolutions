@@ -33,3 +33,87 @@
     height: auto;
     border-radius: 12px;
 }
+
+.card-obrigado {
+    max-width:900px;
+    background:white;
+    margin:-40px auto 50px;
+    padding:50px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+    border:1px solid #c8e6c9;
+}
+
+.card-obrigado h2 {
+     margin-top:30px;
+     color:#0c0c0c;
+}
+
+.frase {
+    color:#2e7d32;
+    font-weight:bold;
+    margin:30px;
+}
+
+.email-obg {
+     width:60%;
+    margin:30px auto;
+    background:#f4f4f4;
+    padding:18px;
+    border-radius:10px;
+    font-size:20px;
+}
+
+.card-obrigado h1 {
+    margin-top: 20px;
+    color: #2e7d32;
+}
+
+.botao-obg{
+    display:inline-block;
+    padding:15px 40px;
+    background:#2e7d32;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+    transition:.3s;
+}
+
+.botao-obg:hover {
+    background: #2e7d32;
+}
+
+.secaoInformativa-obg {
+    max-width:1200px;
+    margin:auto;
+    padding:40px;
+    border-top:1px solid #dee2e6;
+
+}
+
+.secaoInformativa-obg h2 {
+    text-align:center;
+    color:#2e7d32;
+    margin-bottom:40px;
+
+}
+
+.blocos{
+    display:flex;
+    gap:30px;
+    justify-content:center;
+}
+
+.bloco-info{
+    flex:1;
+    text-align:center;
+
+}
+
+.imagem-esg-obg{
+    width:80px;
+    margin:auto;
+    display:block;
+
+}
