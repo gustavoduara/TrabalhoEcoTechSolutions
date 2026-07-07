@@ -61,118 +61,123 @@
     </header>
 
 <main>
-    <form name="formularioEmail" id="formularioEmail" action="obrigado.html" method="GET">
+  <form name="formularioEmail" id="formularioEmail" class="form-control" action="obrigado.html" method="GET">
   
   <div>
     <p>Digite as suas informações para receber atualizações e notícias sobre as ODS desejadas</p>
   </div>
+
+  <div class="mb-3">
+
   <div>
   <label for="nome">Nome:</label>
-  <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+  <input type="text" class="input-group-text" id="nome" name="nome" placeholder="Digite seu nome" required>
   </div>
 
   <div>
   <label for="email">E-mail:</label>
-  <input type="email" id="email" name="email" placeholder="seu-email@exemplo.com" required>
+  <input type="email" class="input-group-text" id="email" name="email" placeholder="seu-email@exemplo.com" required>
   </div>
-
+  </div>
+<br>
+<div class="mb-3">
   <div>
     <label for="ODS escolhida">ODS:</label>
 
     <div>
-      <input type="checkbox" name="ODSEmail" id="selecionarTodas">
-      <label for="selecionarTodas">Selecionar todas</label>
+      <input class="form-check-input" type="checkbox" name="ODSEmail" id="selecionarTodas">
+      <label class="form-check-label" for="selecionarTodas">Selecionar todas</label>
     </div>  
 
     <div>
-      <input type="checkbox" name="ODSEmail" id="ODS1Email" value="ODS1Email">
-      <label for="ODS1Email">ODS 1 - Erradicação da pobreza</label>
+      <input class="form-check-input" type="checkbox" name="ODSEmail" id="ODS1Email" value="ODS1Email">
+      <label class="form-check-label" for="ODS1Email">ODS 1 - Erradicação da pobreza</label>
     </div>
 
     <div>
-      <input type="checkbox" name="ODSEmail" id="ODS2Email" value="ODS2Email">
-      <label for="ODS2Email">ODS 2 - Fome zero e Agricultura Sustentável</label>
+      <input class="form-check-input" type="checkbox" name="ODSEmail" id="ODS2Email" value="ODS2Email">
+      <label class="form-check-label" for="ODS2Email">ODS 2 - Fome zero e Agricultura Sustentável</label>
     </div>
 
     <div>
-      <input type="checkbox" name="ODSEmail" id="ODS3Email" value="ODS3Email">
-      <label for="ODS3Email">ODS 3 - Saúde e Bem-estar</label>
+      <input class="form-check-input" type="checkbox" name="ODSEmail" id="ODS3Email" value="ODS3Email">
+      <label class="form-check-label" for="ODS3Email">ODS 3 - Saúde e Bem-estar</label>
     </div>
 
     <div>
-      <input type="checkbox" name="ODSEmail" id="ODS4Email" value="ODS4Email">
-      <label for="ODS4Email">ODS 4 - Educação de Qualidade</label>
+      <input class="form-check-input" type="checkbox" name="ODSEmail" id="ODS4Email" value="ODS4Email">
+      <label class="form-check-label" for="ODS4Email">ODS 4 - Educação de Qualidade</label>
     </div>
 
     <div>
-      <input type="checkbox" name="ODSEmail" id="ODS5Email" value="ODS5Email">
-      <label for="ODS5Email">ODS 5 - Igualdade de Gênero</label>
+      <input class="form-check-input" type="checkbox" name="ODSEmail" id="ODS5Email" value="ODS5Email">
+      <label class="form-check-label" for="ODS5Email">ODS 5 - Igualdade de Gênero</label>
     </div>
 
     <div>
-      <input type="checkbox" name="ODSEmail" id="ODS6Email" value="ODS6Email">
-      <label for="ODS6Email">ODS 6 - Água potável e Saneamento</label>
+      <input class="form-check-input" type="checkbox" name="ODSEmail" id="ODS6Email" value="ODS6Email">
+      <label class="form-check-label" for="ODS6Email">ODS 6 - Água potável e Saneamento</label>
     </div>
 
     <div>
-      <input type="checkbox" name="ODSEmail" id="ODS7Email" value="ODS7Email">
-      <label for="ODS7Email">ODS 7 - Energia limpa </label>
+      <input class="form-check-input" type="checkbox" name="ODSEmail" id="ODS7Email" value="ODS7Email">
+      <label class="form-check-label" for="ODS7Email">ODS 7 - Energia limpa </label>
     </div>
 
     <div>
-      <input type="checkbox" name="ODSEmail" id="ODS8Email" value="ODS8Email">
-      <label for="ODS8Email">ODS 8 - Trabalho decente e Crescimento Econômico</label>
+      <input class="form-check-input" type="checkbox" name="ODSEmail" id="ODS8Email" value="ODS8Email">
+      <label class="form-check-label" for="ODS8Email">ODS 8 - Trabalho decente e Crescimento Econômico</label>
     </div>
 
     <div>
-      <input type="checkbox" name="ODSEmail" id="ODS9Email" value="ODS9Email">
-      <label for="ODS9Email">ODS 9 - Inovação</label>
+      <input class="form-check-input" type="checkbox" name="ODSEmail" id="ODS9Email" value="ODS9Email">
+      <label class="form-check-label" for="ODS9Email">ODS 9 - Inovação</label>
     </div>
 
      <div>
-      <input type="checkbox" name="ODSEmail" id="ODS10Email" value="ODS10Email">
+      <input class="form-check-input" type="checkbox" name="ODSEmail" id="ODS10Email" value="ODS10Email">
       <label for="ODS10Email">ODS 10 - Redução das Desigualdades</label>
     </div>
 
     <div>
-      <input type="checkbox" name="ODSEmail" id="ODS11Email" value="ODS11Email">
-      <label for="ODS11Email">ODS 11 - Cidades e Comunidades Sustentáveis</label>
+      <input class="form-check-input" type="checkbox" name="ODSEmail" id="ODS11Email" value="ODS11Email">
+      <label class="form-check-label" for="ODS11Email">ODS 11 - Cidades e Comunidades Sustentáveis</label>
     </div>
 
     <div>
-      <input type="checkbox" name="ODSEmail" id="ODS12Email" value="ODS12Email">
-      <label for="ODS12Email">ODS 12 - Consumo Responsável</label>
+      <input class="form-check-input" type="checkbox" name="ODSEmail" id="ODS12Email" value="ODS12Email">
+      <label class="form-check-label" for="ODS12Email">ODS 12 - Consumo Responsável</label>
     </div>
 
     <div>
-      <input type="checkbox" name="ODSEmail" id="ODS13Email" value="ODS13Email">
-      <label for="ODS13Email">ODS 13 - Ação climática</label>
+      <input class="form-check-input" type="checkbox" name="ODSEmail" id="ODS13Email" value="ODS13Email">
+      <label class="form-check-label" for="ODS13Email">ODS 13 - Ação climática</label>
     </div>
 
     <div>
-      <input type="checkbox" name="ODSEmail" id="ODS14Email" value="ODS14Email">
-      <label for="ODS14Email">ODS 14 - Vida na água</label>
+      <input class="form-check-input" type="checkbox" name="ODSEmail" id="ODS14Email" value="ODS14Email">
+      <label class="form-check-label" for="ODS14Email">ODS 14 - Vida na água</label>
     </div>
 
     <div>
-      <input type="checkbox" name="ODSEmail" id="ODS15Email" value="ODS15Email">
-      <label for="ODS15Email">ODS 15 - Vida terrestre</label>
+      <input class="form-check-input" type="checkbox" name="ODSEmail" id="ODS15Email" value="ODS15Email">
+      <label class="form-check-label" for="ODS15Email">ODS 15 - Vida terrestre</label>
     </div>
 
     <div>
-      <input type="checkbox" name="ODSEmail" id="ODS16Email" value="ODS16Email">
-      <label for="ODS16Email">ODS 16 - Paz, Justiça e Instituições Eficazes</label>
+      <input class="form-check-input" type="checkbox" name="ODSEmail" id="ODS16Email" value="ODS16Email">
+      <label class="form-check-label" for="ODS16Email">ODS 16 - Paz, Justiça e Instituições Eficazes</label>
     </div>
 
     <div>
-      <input type="checkbox" name="ODSEmail" id="ODS17Email" value="ODS17Email">
-      <label for="ODS17Email">ODS 17 - Parcerias e Meios de Implementação</label>
+      <input class="form-check-input" type="checkbox" name="ODSEmail" id="ODS17Email" value="ODS17Email">
+      <label class="form-check-label" for="ODS17Email">ODS 17 - Parcerias e Meios de Implementação</label>
     </div>
-
+  </div>
   </div>
   <br>
   <div>
-  <button type="submit">Enviar</button>
+  <button type="submit" class="btn btn-success">Enviar</button>
   </div>
   <br>
 </form>
